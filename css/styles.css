@@ -7938,7 +7938,7 @@ textarea.form-control-lg {
 }
 
 .text-white {
-  --bs-text-opacity: 0;
+  --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
 
