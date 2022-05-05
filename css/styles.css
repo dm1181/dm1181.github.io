@@ -205,12 +205,15 @@ address {
 ol,
 ul {
   padding-left: 2rem;
+  padding: 0;
+  margin: 0;
+  text-align: left
 }
 
 ol,
 ul,
 dl {
-  margin-top: 0;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
@@ -7986,6 +7989,11 @@ textarea.form-control-lg {
 .text-white-50 {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-white-70 {
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.7) !important;
 }
 
 .text-reset {
