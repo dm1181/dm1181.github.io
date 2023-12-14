@@ -636,6 +636,15 @@ progress {
   height: auto;
 }
 
+.img-fluid-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  max-width: 100%;
+  margin-top: 130px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -1423,6 +1432,12 @@ progress {
   .col-lg-6 {
     flex: 0 0 auto;
     width: 50%;
+  }
+
+  .col-lg-6-align {
+    flex: 0 0 auto;
+    width: 50%;
+    vertical-align: middle;
   }
 
   .col-lg-7 {
